@@ -19,6 +19,7 @@ echo "<h4>Failed to connect MySQL:
 </h4>".mysqli_connect_error();
 }
 
+echo "<a href='linegraph.html'>Trend Graph</a>";
 echo "<table border = '1' >
 <tr>
 <th>Time</th>

@@ -28,3 +28,26 @@ table{
 	margin-left: 26%;
 
 }
+a{
+	margin-left: 700px;
+	position: fixed;
+	top: 100px;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	left: 130px;
+	padding: 10px;
+	font-weight: 600;
+	border-radius: 11px;
+}
+a:hover{
+	background-color: black;
+	color: white;
+		transition: all 250ms cubic-bezier(.17,.67,0,0);
+    transition-property: all;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.17, 0.67, 0, 0);
+    transition-delay: initial;
+
+}
