@@ -4,20 +4,21 @@ $(document).ready(function(){
 		url : "http://localhost/graph.php",
 		type : "GET",
 		success : function(data){
-			console.log(data);
+			// console.log(data);
 
-			var id = [];
-			var name =[];
-			var qty = [];
-			var price =[];
+			var datapoint = [];
+			var temperature =[];
+			var humidity = [];
+			var light =[];
 			for (var i in data){
-				id.push("Time" + data[i].id);
-				name.push(data[i].name);
-				qty.push(data[i].qty);
-				price.push(data[i].price);
+				datapoint.push("Time" + data[i].datapoint);
+				temperature.push(data[i].temperature);
+				humidity.push(data[i].humidity);
+				light.push(data[i].light);
+
 			}
 			var chartdata = {
-				labels: id,
+				labels: datapoint,
 				datasets: [
 				{
 					label: "temperature",
@@ -27,7 +28,7 @@ $(document).ready(function(){
 					borderColor: "rgba(59, 89, 152, 1)",
 					pointHoverBackgroundColor: "rgba(59, 89, 152, 1)",
 					pointHoverBorderColor: "rgba(59, 89, 152, 1)",
-					data: name
+					data: temperature
 				},
 				{
 					label: "humidity",
@@ -37,7 +38,7 @@ $(document).ready(function(){
 					borderColor: "rgba(29, 202, 255, 1)",
 					pointHoverBackgroundColor: "rgba(29, 202, 255, 1)",
 					pointHoverBorderColor: "rgba(29, 202, 255, 1)",
-					data: qty
+					data: humidity
 				},
 				{
 					label: "UV",
@@ -47,7 +48,7 @@ $(document).ready(function(){
 					borderColor: "rgba(211, 72, 54, 1)",
 					pointHoverBackgroundColor: "rgba(211, 72, 54, 1)",
 					pointHoverBorderColor: "rgba(211, 72, 54, 1)",
-					data: price
+					data: light
 				}
 				]
 			};
