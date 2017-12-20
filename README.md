@@ -1,1 +1,2 @@
-# SoftDev
+Our project is collecting sensor data like temperature, humidity, and light from the audrino device and then send to the database. User can view the data table and data graph from the web page.
+audrinosensor.ino is the code file for running audrino and collecting data. data.php load the data from the database and display the chart on the webpage. graph.php file displaying the data from the database as a line graph.
