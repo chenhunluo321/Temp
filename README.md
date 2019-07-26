@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
-<a href="https://ibb.co/M65kGpB"><img width = "200" height = "100" src="https://i.ibb.co/WtpvPFV/Screen-Shot-2019-07-26-at-6-42-51-PM.png" alt="Screen-Shot-2019-07-26-at-6-42-51-PM" border="0"></a>
+<a href="https://ibb.co/M65kGpB"><img width = "250" height = "200" src="https://i.ibb.co/WtpvPFV/Screen-Shot-2019-07-26-at-6-42-51-PM.png" alt="Screen-Shot-2019-07-26-at-6-42-51-PM" border="0"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
