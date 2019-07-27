@@ -3,33 +3,23 @@
 <a href="https://ibb.co/M65kGpB"><img width = "250" height = "200" src="https://i.ibb.co/WtpvPFV/Screen-Shot-2019-07-26-at-6-42-51-PM.png" alt="Screen-Shot-2019-07-26-at-6-42-51-PM" border="0"></a>
 </p>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Temperature Monitoring System</h3>
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+  <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/downloads-0k-yellow.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/build-passing-yellow.svg?style=flat-square">
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> 
     <br> 
 </p>
 
-## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+
 
 ## 🧐 About <a name = "about"></a>
 Our project is collecting sensor data like temperature, humidity, and light from the audrino device and then send to the database. User can view the data table and data graph from the web page.
@@ -39,64 +29,36 @@ audrinosensor.ino is the code file for running audrino and collecting data. data
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
+You will need an Arduino HardWare with an ethernet shield
 
-```
-Give examples
-```
+Any Operating systems that are capable of running local host
+
 
 ### Installing
-A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+### Setting Up Arduino:
 
-```
-Give the example
-```
 
-And repeat
+1. Download an Arduino IDE
 
-```
-until finished
-```
+2. Open the IDE and connect your Arduino device with your computer
 
-End with an example of getting some data out of the system or using it for a little demo.
+3. Running the file audrinosensor.ino
 
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
-Explain what these tests test and why
+### Setting Up Local host:
 
-```
-Give an example
-```
+1. Go to the Apache Friends website and download XAMPP for your operating system
 
-### And coding style tests
-Explain what these tests test and why
+2. Start the XAMPP program and click on the "Start" button next to "Apache" to start your Apache Web server.
 
-```
-Give an example
-```
+3. Place all html, js, css, php files in the "HTDocs" folder located under the "XAMMP" folder
 
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+4. Open up any Web browser and enter "localhost" into the address box and open data.php
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Arduino](https://www.arduino.cc/) - HardWare
+- [XAMPP](https://www.apachefriends.org/index.html) - Server Framework
+- [MySQL](https://dev.mysql.com/doc/index-connectors.html) - Database
+- [CSS, HTML, JS, PHP] - Programming Language
 
-## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
